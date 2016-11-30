@@ -40,7 +40,7 @@ for (i = 0; i < partyAnimals.length; i++){
 var weaponChest = ["Mace", "Sorcerer's Stone", "Excalibur"];
 var hero = {
   wizard : "Merlin",
-  weapon : weaponChest[1],
+  weapon : weaponChest[2],
   power : 30
 };
 
@@ -48,9 +48,9 @@ function wizardry(weapon){
   if (weapon == "Sorcerer's Stone"){
     console.log(hero.wizard + " shall slay the dragon with the " + weapon + "!");
   } else {
-    console.log(weapon + " has been equipped. " + hero.wizard + " is ready for war with the " + weapon + ".")
+    weapon = weaponChest[1];
+    console.log(hero.wizard + " has unequipped the " + hero.weapon + ". " + weapon + " has been equipped. " + hero.wizard + " is ready for war with the " + weapon + ".")
   }
 }
 
 wizardry(hero.weapon);
-// had trouble invoking bc i put wizardy :b
