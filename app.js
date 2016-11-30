@@ -28,14 +28,11 @@ for (animalCount = 5; animalCount <10; animalCount++){
 // E3 - Hip Hop Array
 var partyAnimals = ["Zebra", "Giraffe", "Lion", "Lemur", "Hippo"];
 var i;
-var sentence="";
-var partyActivity = [" drinks soda like there's no tomorrow.", " eats all the food in the fridge.", " tries on everyone's hats.", " leaps into the pool."];
+var partyActivity = [" drinks soda like there's no tomorrow.", " eats all the food in the fridge.", " tries on everyone's hats.", " leaps into the pool.", " monitors that AUX cord."];
 
-for (i = 0; i <= partyAnimals.length; i++){
+for (i = 0; i < partyAnimals.length; i++){
   console.log("The " + partyAnimals[i] + partyActivity[i]);
 }
-//^ fix later
-
 
 // E4 Merlin's Battle Weapon
 var weaponChest = ["Mace", "Sorcerer's Stone", "Excalibur"];
