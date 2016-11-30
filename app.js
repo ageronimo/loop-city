@@ -8,10 +8,11 @@ var count;
 // (--) -> dec by 1
 // var = var +/- num
 console.log("Look Mommy I can count!");
-for (count = 0; count <= 100; count++){
-  console.log(count + " Mississippis.");
+for (count = 1; count <= 100; count++){
    if (count == 1){
-    console.log(count + " Mississippi.")
+    console.log(count + " Mississippi.");
+  } else {
+  console.log(count + " Mississippis.");    
   }
 }
 
@@ -34,6 +35,7 @@ for (i = 0; i < partyAnimals.length; i++){
   console.log("The " + partyAnimals[i] + partyActivity[i]);
 }
 
+
 // E4 Merlin's Battle Weapon
 var weaponChest = ["Mace", "Sorcerer's Stone", "Excalibur"];
 var hero = {
@@ -44,7 +46,7 @@ var hero = {
 
 function wizardry(weapon){
   if (weapon == "Sorcerer's Stone"){
-    console.log(hero.wizard + " shall slay the dragon with the " + weapon);
+    console.log(hero.wizard + " shall slay the dragon with the " + weapon + "!");
   } else {
     console.log(weapon + " has been equipped. " + hero.wizard + " is ready for war with the " + weapon + ".")
   }
